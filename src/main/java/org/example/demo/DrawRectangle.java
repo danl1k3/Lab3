@@ -33,6 +33,8 @@ public class DrawRectangle extends Application {
         buttonBox.setSpacing(10);
         buttonBox.setPadding(new Insets(10));
 
+
+
         HBox.setHgrow(redButton, Priority.ALWAYS);
         HBox.setHgrow(greenButton, Priority.ALWAYS);
         HBox.setHgrow(blueButton, Priority.ALWAYS);
