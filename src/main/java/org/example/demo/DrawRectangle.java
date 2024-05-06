@@ -18,7 +18,7 @@ public class DrawRectangle extends Application {
         BorderPane borderPane = new BorderPane();
         Scene scene = new Scene(borderPane, 800, 800);
 
-        Rectangle rectangle = new Rectangle(100, 100, 100, 100);
+        Rectangle rectangle = new Rectangle();
         rectangle.setFill(Color.TRANSPARENT);
         rectangle.setStroke(Color.BLACK);
 
